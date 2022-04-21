@@ -1,5 +1,5 @@
-width,color
-50,"red"
-10,"blue"
-120,"yellow"
-200,"teal"
+label,width,color
+"red",50,"red"
+"blue",10,"blue"
+"yellow",120,"yellow"
+"teal",200,"teal"
