@@ -121,7 +121,6 @@ class ScatterPlot {
                 .attr("r", d => d.r )
                 .style("fill", "blue");
             
-
         circles
             .on('mouseover', (e,d) => {
                 d3.select('#tooltip')
