@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Final Task</title>
+	<style>
+	 body {
+	     font-family: system-ui;
+	 }
+	 .container {
+	     display: flex;
+	 }
+	 .bar.active {
+	     stroke: #000;
+	 }
+	 #tooltip {
+	     position: absolute;
+	     opacity: 0;
+	     background: #fff;
+	     border: 1px solid #ddd;
+	     font-size: 12px;
+	     font-weight: 600;
+	     padding: 2px 8px;
+	 }
+	 .tooltip-label {
+	     font-weight: 500;
+	     font-size: 11px;
+	     color: #888;
+	 }
+	</style>
+    </head>
+    <body>
+	<h2>Relationship between cell phones and ambulances</h2>
+	<div id="tooltip"></div>
+	<div class="container">
+	    <div><svg id="drawing_region_line_bar_chart"></svg></div>
+	    <div><svg id="drawing_region_piechart"></svg></div>
+	</div>
+	<div>
+		<button type="button" id="Y07">2007</button>
+		<button type="button" id="Y08">2008</button>
+		<button type="button" id="Y09">2009</button>
+		<button type="button" id="Y10">2010</button>
+		<button type="button" id="Y11">2011</button>
+		<button type="button" id="Y12">2012</button>
+		<button type="button" id="Y13">2013</button>
+		<button type="button" id="Y14">2014</button>
+		<button type="button" id="Y15">2015</button>
+		<button type="button" id="Y16">2016</button>
+		<button type="button" id="Y17">2017</button>
+		<button type="button" id="Y18">2018</button>
+	</div>
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+	<script src="final_task_line_bar_chart.js"></script>
+	<script src="final_task_piechart.js"></script>
+	<script src="final_task_main.js"></script>
+    </body>
+</html>
